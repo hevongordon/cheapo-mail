@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Messaging</title>
+
+    <link rel="stylesheet" href="cheapo.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+<div id='session'><div>
+<h2 id='heading'>Messaging</h2>
+<span id='spanner'></span>
+<br/><br/><br/>
+<div class="wrap">
+  <div class="floatleft">
+
+    <div class="Messagecontent" id="messaging"> 
+       <form class="msgsubmit" method='post' action='Messaging.php'>
+       <label  class="styler">Recipient:</label>
+        <input name='recipient' placeholder="recipient" class="test" type="text" id='recipient'  />
+       <label  class="styler">Subject:</label>
+        <input name='subject' placeholder="subject" class="test" type="text" id='subject'  />
+       <label class='styler'>Body:</label>
+       <textarea name='body' id='area'  rows="15" cols="70" class='test'></textarea>
+       <br/>
+        <input id='hide' type='hidden' name='userID'/>
+        <input class="test"  id="createuser"value="Send" type="submit"/>
+
+      </form>
+    </div>
+  </div>
+
+<br/>
+    <div class="floatright">
+      <div class='messages'>Recent Messages</div>
+      <br/>
+      <div id='message1'></div>
+      <br/>
+      <div id='message2'></div>
+      <br/>
+      <div id='message3'></div>
+      <br/>
+      <div id='message4'></div>
+      <br/>
+      <div id='message5'></div>
+      <br/>
+      <div id='message6'></div>
+      <br/>
+      <div id='message7'></div>
+      <br/>
+      <div id='message8'></div>
+      <br/>
+      <div id='message9'></div>
+      <br/>
+      <div id='message10'></div>
+
+    </div>
+    <div style="clear: both;"></div>
+</div>
+
+
+
+
+
+
+ 
+
+  </div>
+    </form>
+  </div>
+</div>
+
+</div>
+
+<script src='jquery.js'></script>
+
+<script src="mail.js"></script>
+
+</body>
+
+</html>

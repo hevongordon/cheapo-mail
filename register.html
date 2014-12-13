@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>register</title>
+
+    <link rel="stylesheet" href="cheapo.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+<div class="content" id="plcevalue"> 
+    
+<form class="submitter" action='registration.php' method='post'>
+    <label  class="styler">First Name:</label><span class="star">*</span>
+    <input placeholder="First Name" class="test" type="text"  name='fname'/>
+    <br/>
+     <label class="styler">Last Name:</label><span class="star">*</span>
+    <input  placeholder="Last Name" class="test" type="text" name='lname'  />
+    <br/>
+     <label class="styler">Email:</label><span class="star">*</span>
+    <input   placeholder="email@email.com"class="test" type="text" name='email'  />
+    <br/>
+     <label class="styler">Password:</label><span class="star">*</span>
+    <input   placeholder="Password" class="test" type="password" name='pword' />
+    <br/>
+     <label class="styler">Repeat Password</label><span class="star">*</span>
+    <input  placeholder="re-enter password" class="test" type="password" name='rpword'  />
+    <br/><br/>
+    <input class="test"  id="createuser"value="Create User" type="submit"/>
+</form>
+
+</div>
+
+
+
+
+ 
+ <script src='jquery.js'></script>
+
+<script src="mail.js"></script>
+
+</body>
+
+</html>
